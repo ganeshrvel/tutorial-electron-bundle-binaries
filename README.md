@@ -155,4 +155,4 @@ Please feel free to contact me at ganeshrvel@outlook.com
 ### License
 tutorial-electron-bundle-binaries is released under [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/blob/master/LICENSE "MIT License").
 
-Copyright © 2018 - Present Ganesh Rathinavel
+Copyright © 2018-Present Ganesh Rathinavel
