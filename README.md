@@ -152,6 +152,6 @@ Please feel free to contact me at ganeshrvel@outlook.com
 - [electron-root-path](https://github.com/ganeshrvel/npm-electron-root-path "Get the root path of an Electron Application")
 
 ### License
-tutorial-electron-bundle-binaries | Get the root path of an Electron Application is released under [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/blob/master/LICENSE "MIT License").
+tutorial-electron-bundle-binaries is released under [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/blob/master/LICENSE "MIT License").
 
 Copyright © 2018 - 2019 Ganesh Rathinavel
