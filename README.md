@@ -9,7 +9,7 @@
 
 ### Introduction
 
-##### Distributing an electron app alone with pre-compiled native files could get tricky as asar packager tends to exclude such files while packaging the app. I had to spend a significant amount of time researching how to get this done. This was originally implemented inside [OpenMTP - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP - Advanced Android File Transfer Application for macOS").
+##### Distributing an electron app alone with pre-compiled native files could get tricky as asar packager tends to exclude such files while packaging the app. I have spent a significant amount of time researching how to get this done. This was originally implemented inside [OpenMTP - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP - Advanced Android File Transfer Application for macOS").
 
 ### Implementation
 
