@@ -1,9 +1,9 @@
-# Bundling precompiled binary or native file into an electron app
+# Bundle a precompiled binary or native file into an electron app.
 
 - Author: [Ganesh Rathinavel](https://www.linkedin.com/in/ganeshrvel "Ganesh Rathinavel")
-- License: [MIT](https://github.com/ganeshrvel/openmtp/blob/master/LICENSE "MIT")
-- Website URL: [https://github.com/ganeshrvel/tutorial-electron-bundling-binaries](https://github.com/ganeshrvel/tutorial-electron-bundling-binaries/ "https://github.com/ganeshrvel/tutorial-electron-bundling-binaries")
-- Repo URL: [https://github.com/ganeshrvel/tutorial-electron-bundling-binaries](https://github.com/ganeshrvel/tutorial-electron-bundling-binaries/ "https://github.com/ganeshrvel/tutorial-electron-bundling-binaries")
+- License: [MIT](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/blob/master/LICENSE "MIT")
+- Website URL: [https://github.com/ganeshrvel/tutorial-electron-bundle-binaries](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/ "https://github.com/ganeshrvel/tutorial-electron-bundle-binaries")
+- Repo URL: [https://github.com/ganeshrvel/tutorial-electron-bundle-binaries](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/ "https://github.com/ganeshrvel/tutorial-electron-bundle-binaries")
 - Contacts: ganeshrvel@outlook.com
 
 
@@ -16,7 +16,7 @@
 - Create the OS folder inside your electron "build" directory.
 
 ```shell
-# Replace {OS} with the required OS name. eg: mac, windows, linux
+# Replace {OS} with the required OS name. eg: mac, win, linux
 $ mkdir -p ./build/{OS}/bin
 ```
 
@@ -105,7 +105,7 @@ export default () => {
       "entitlements": "build/entitlements.mas.plist",
       "icon": "build/icon.icns",
       "binaries": [
-        "dist/mas/OpenMTP.app/Contents/Resources/bin/mtp-cli"
+        "dist/mas/<APP_NAME>.app/Contents/Resources/bin/mtp-cli"
       ]
     },
 }
@@ -124,9 +124,9 @@ var command = spawn(execPath, arg, {});
 
 ### Clone
 ```shell
-$ git clone --depth 1 --single-branch --branch master https://github.com/ganeshrvel/tutorial-electron-bundling-binaries.git
+$ git clone --depth 1 --single-branch --branch master https://github.com/ganeshrvel/tutorial-electron-bundle-binaries.git
 
-$ cd tutorial-electron-bundling-binaries
+$ cd tutorial-electron-bundle-binaries
 ```
 
 ### Contribute
@@ -136,7 +136,7 @@ $ cd tutorial-electron-bundling-binaries
 - Make sure your code lints.
 - Issue a pull request!
 
-When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundling-binaries/blob/master/LICENSE "MIT License") that covers the project. Feel free to contact the maintainers if that's a concern.
+When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/blob/master/LICENSE "MIT License") that covers the project. Feel free to contact the maintainers if that's a concern.
 
 
 ### Buy me a coffee
@@ -152,6 +152,6 @@ Please feel free to contact me at ganeshrvel@outlook.com
 - [electron-root-path](https://github.com/ganeshrvel/npm-electron-root-path "Get the root path of an Electron Application")
 
 ### License
-tutorial-electron-bundling-binaries | Get the root path of an Electron Application is released under [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundling-binaries/blob/master/LICENSE "MIT License").
+tutorial-electron-bundle-binaries | Get the root path of an Electron Application is released under [MIT License](https://github.com/ganeshrvel/tutorial-electron-bundle-binaries/blob/master/LICENSE "MIT License").
 
 Copyright © 2018 - 2019 Ganesh Rathinavel
